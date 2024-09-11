@@ -1,0 +1,56 @@
+questions answered
+Re: Bad Design
+
+Hello Marissa,
+
+I'm so sorry the dashboard design is not working well for you. Anything that increases the number of clicks in between every action can really add time to the task, so let's try and see what we can do!
+
+Can I schedule some time with you to go through this? It will let us make  sure the problem is fully understood so we can come up with the best solution.
+
+Would Monday at 2pm EST work for you?
+
+Also, please let us know when things are not working. We are here to help and always want to know when things are not going well.
+
+Luke
+
+(after this email I would look at the app to see if I can understand the issue without the meeting and start pre-planning solutions)
+
+
+
+(observations: 
+customer seems upset: all caps, stating that they are already paying, probably under pressure because of multiple user complaints)
+
+Re: URGENT ISSUE WITH PRODUCTION!!!!  
+
+Hello Carrie,
+
+Sorry this is happening, that sounds like a difficult morning. We will get right on this. I'm available for a call now if you want to walk through it together.
+
+Some ideas: The "record is too big" error could be related to the long meta data in each item. Since it's not being used by the search, is it possible to leave it out of the algolia indexing? It will reduce the amount of data going into Algolia and may remove the error.
+
+It could also be the reviews that the users are writing a too long.
+
+Some questions: Does this issue happen with a specific coffee shop? If so, can you send me the information for that coffee shop and I can take a look at the record in algolia myself?
+
+I know this is urgent, so work will begin right now, but in the mean time, would you like to setup a call to work through this together?
+
+Luke
+
+
+Re: Error on website
+
+Hello,
+
+Yes, we can definitely try to fix this error.
+
+It seems to be mentioning a 'searchkit' library which after looking it up seems to be a separate library from Algolia. 
+
+A couple questions: 
+1. Does this error happen on all pages or only certain pages?
+2. Has this error always been present or did it start after installation finished?
+3. Did you use a different search product before algolia that might be expecting this "searchkit" library?
+4. I don't have your website url, would you send it to me and I can debug some of it on my own?
+
+Thanks,
+
+Luke
